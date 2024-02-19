@@ -8,6 +8,8 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import dev.khaled.theta.model.Person;
+
 @Repository
 public interface PersonRepository extends BaseRepository<Person, Long> {
 
